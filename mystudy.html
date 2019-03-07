@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 1000px;
+            border: 3px solid gray;
+            margin: auto;
+        }
+
+        .a_style {
+            text-decoration: none;
+            color: black;
+        }
+
+        .li_style {
+            list-style: none;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid gray;
+        }
+
+        nav {
+            float: left;
+            width: 160px;
+            border-right: 3px solid gray;
+        }
+
+        main {
+            float: left;
+            width: 600px;
+            border-left: 3px solid gray;
+            border-right: 3px solid gray;
+            margin-left: -3px;
+        }
+
+        aside {
+            float: left;
+            width: 160px;
+            border-left: 3px solid gray;
+            margin-left: -3px;
+        }
+
+        footer {
+            clear: both;
+            border-top: 3px solid gray;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="mailto:dlwodbs901@gmail.com" method="post" enctype="text/plain">
+        <div class="container">
+            <header>
+                <h1>
+                    Test Web
+                </h1>
+            </header>
+            <nav>
+                <ul>
+                    <li class="li_style">
+                        <a href="https://www.google.co.kr" class="a_style" target=_blank>
+                            <h2>
+                                Google
+                            </h2>
+                        </a>
+                    </li>
+                    <li class="li_style">
+                        <a href="https://www.naver.com" class="a_style" target=_blank>
+                            <h2>
+                                Naver
+                            </h2>
+                        </a>
+                    </li>
+                    <li class="li_style">
+                        <a href="http://www.daum.net/" class="a_style" target=_blank>
+                            <h2>
+                                Daum
+                            </h2>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <h2 style="text-align:center">제 출</h2>
+                <h2>
+                    Name
+                </h2>
+                <input type="text" value="Name" placeholder = "Name">
+                <h2>
+                    Class_Number
+                </h2>
+                <input type="text" value="Class_Number" placeholder = "Class_Number">
+                <h2>
+                    E-mail
+                </h2>
+                <input type="email" value="E-mail" placeholder="E-mail">
+                <div>
+                    <input type="radio" name="chk_info" value="HTML"><strong>Html</strong>
+                </div>
+                <div>
+                    <input type="radio" name="chk_info" value="python"><strong>Python</strong>
+                </div>
+            </main>
+            <aside>
+
+            </aside>
+            <footer>
+                <input type="submit" Value="보내기">
+                <input type="reset">
+            </footer>
+        </div>
+    </form>
+</body>
+
+</html>
